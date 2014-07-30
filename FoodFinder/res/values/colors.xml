@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    !!! Action BAR Colors !! 
+     <color name="actionbar_background_start">#7f3f00 </color>
+    <color name="actionbar_background_end">#582c00 </color>
+    <color name="actionbar_separator">#80000000</color>
+    <color name="actionbar_title">#ffffff</color>
+    -->
+    <color name="actionbar_background_start">#171616</color>
+    <color name="actionbar_background_end">#171616</color>
+    <color name="actionbar_separator">#171616</color>
+    <color name="actionbar_title">#ffffff</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+
+    <!-- !!! Action BAR -->
+
+    <color name="text_gray">#54534f</color>
+    <color name="white_transparent">#8fffffff</color>
+    <color name="black_transparent">#60000000</color>
+    <color name="black_transparent_more_dark">#80000000</color>
+    <!-- <color name="black_transparent">#000000</color> -->
+
+    <color name="textColorTitle">#FFFFFF</color>
+    <color name="progressBarTextColor">#FFFFFF</color>
+    <color name="taskDetailTextView">#FFFFFF</color>
+    <color name="splashBackground">#FFFFFF</color>
+    <color name="titleEditText">#848284</color>
+    <color name="editTextColor">#848284</color>
+    <color name="taskDetailTransparentLine">#00000000</color>
+
+    <!-- style -->
+    <color name="fieldTextColor">#FFFFFF</color>
+    <color name="fieldTextShadowColor">#000000</color>
+    <color name="fieldTitleTextColor">#FFFFFF</color>
+    <color name="fieldTitleShadowColor">#000000</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="buttonTextShadowColor">#000000</color>
+    <color name="myEditTextColor">#848284</color>
+
+    <!-- Modelo de layout -->
+    <color name="topoStartColor">#FFFFFF</color>
+    <color name="topoEndColor">#FFFFFF</color>
+    <color name="principalstartColor">#000000</color>
+    <color name="principalCenterColor">#4F4F4F</color>
+    <color name="principalEndColor">#FFFFFF</color>
+    <color name="principalTwoGradientStartColor">#FEFEFE</color>
+    <color name="principalTwoGradientCenterColor">#FFFFFF</color>
+    <color name="principalTwoGradientEndColor">#F5F5F5</color>
+    <color name="principalTwoStrokeColor">#FFFFFF</color>
+    <color name="principalTwoStrokeShadowColor">#FFFFFF</color>
+    <color name="principalLineStartColor">#008C00</color>
+    <color name="principalLineCenterColor">#008C00</color>
+    <color name="principalLineEndColor">#008C00</color>
+    <color name="primeiraViewGradientStartColor">#F5F5F5</color>
+    <color name="primeiraViewGradientEndColor">#FFFFFF</color>
+    <color name="customButtonShapeSolid">#3EA83E</color>
+    <color name="customButtonShapeStroke">#3EA83E</color>
+    <color name="customButtonGradientStartColor">#008C00</color>
+    <color name="customButtonGradientEndColor">#008C00</color>
+    <color name="menuListColorBackGround">#000000</color>
+    <color name="menuListColorSelected">#2F5230</color>
+    <color name="listColorBackGround">#FFFFFF</color>
+    <color name="listColorSelected">#008C00</color>
+    <color name="listTextColor">#000000</color>
+    <color name="listTextColorSelected">#FFFFFF</color>
+
+</resources>

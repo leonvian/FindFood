@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_gray"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/edit_text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1"
+        android:background="@color/White"
+        android:hint="@string/example_type_food_hint"
+        android:padding="10dp" />
+
+    <ImageButton
+        style="@style/ButtonBorderCinza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:contentDescription="@string/speak"
+        android:onClick="onClickSpeak"
+        android:src="@android:drawable/ic_btn_speak_now" />
+
+</LinearLayout>

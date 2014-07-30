@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/text_view_default_properties"
+            android:text="@string/to"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/find"
+            android:textColor="@color/purple"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/text_view_default_properties"
+            android:layout_marginLeft="5dp"
+            android:text="@string/your_favorite"
+            android:textSize="22sp" />
+
+        <TextView
+            style="@style/text_view_default_properties"
+            android:layout_marginLeft="5dp"
+            android:text="@string/food"
+            android:textColor="@color/purple"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_view_default_properties"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/type_here"
+        android:textSize="18sp" />
+
+    <include layout="@layout/search_layout" />
+
+    <Button
+        style="@style/ButtonColorRoxo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onClickFind"
+        android:text="@string/find" />
+
+    <TextView
+        android:id="@+id/text_view_locally_food_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/favorite_foods"
+        android:textColor="@color/purple"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_favorites_foods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_text_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:hint="@string/type_here_to_filter"
+            android:padding="10dp" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:divider="@color/Gray"
+            android:dividerHeight="1dp"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>
