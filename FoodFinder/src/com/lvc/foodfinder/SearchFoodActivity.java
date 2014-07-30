@@ -28,7 +28,7 @@ public class SearchFoodActivity extends BaseSearchList<Food, FavoriteFoodAdapter
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		editTextSearch = (EditText) findViewById(R.id.edit_text_search);
-		editTextSearch.setText("Cupcake"); 
+	//	editTextSearch.setText("Cupcake"); 
 		
 		EditText editTextFilter = (EditText) findViewById(R.id.edit_text_filter);
 		editTextFilter.addTextChangedListener(getTextWatcher());
